@@ -1,0 +1,54 @@
+body{
+  background: url(../image/bj1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    width:200px;
+    height:200px;
+    border-radius:20%;
+    background:url(../image/logo.jpg);
+    position: absolute;
+    top:12px;
+}
+.tj{
+    width:50px;
+    height:50px;
+    background:url(../image/tj.png) no-repeat center;
+    background-size:50px;
+    margin:0 auto;
+}
+h3{
+    text-align: center;
+    -webkit-user-select: none;
+}
+.add{
+    cursor: pointer;
+    text-align: center;
+}
+form{
+    padding:10px;
+    border-radius: 5px;
+    width:30%;
+    position: fixed;left:0;right:0;top:0;
+    bottom: 0;margin:auto;
+    height:300px;display: none;
+    box-shadow: 0 0 10px #b0ffcc;
+}
+.con{
+    width:300px;display: none;
+    position: absolute;
+    height:280px;left:0;top:0;
+}
+.con-con{
+  width:100%;height:50px!important;overflow-y: scroll!important;
+}
+.bwl{
+    width:658px;
+    height:502px;
+    background: url(../image/bj.jpg);
+    position: absolute;
+    top:200px;
+    left: 350px;
+}
